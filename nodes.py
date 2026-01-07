@@ -44,10 +44,10 @@ class PainterSamplerLTXV(io.ComfyNode):
 
     @classmethod
     def execute(cls, model, add_noise, noise_seed, steps, cfg, sampler_name, scheduler, positive, negative, 
-                latent_image, start_at_step, end_at_step, return_with_leftover_noise, sigmas=None) -> io.NodeOutput:
+                latent_image, start_at_step, end_at_step, return_noise, sigmas=None) -> io.NodeOutput:
         
         force_full_denoise = True
-        if return_with_leftover_noise == "enable":
+        if return_noise == "enable":
             force_full_denoise = False
         
         disable_noise = False
