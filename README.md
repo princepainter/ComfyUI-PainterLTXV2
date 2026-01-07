@@ -17,8 +17,8 @@ ComfyUI custom nodes providing LTXV audio-video separation sampling and latent p
 
 ### PainterSamplerLTXV
 
-<img width="1251" height="656" alt="image" src="https://github.com/user-attachments/assets/6d6bea7e-18df-4c65-aa67-d671a620c831" />
 
+<img width="1876" height="899" alt="image" src="https://github.com/user-attachments/assets/6b2c1111-3911-40a2-ae46-54ec8a29bc42" />
 
 **[English]**
 - Full KSampler parameters with LTXV native audio-video latent separation
@@ -34,7 +34,8 @@ ComfyUI custom nodes providing LTXV audio-video separation sampling and latent p
 
 ### PainterLTXVtoVideo
 
-<img width="1876" height="899" alt="image" src="https://github.com/user-attachments/assets/6b2c1111-3911-40a2-ae46-54ec8a29bc42" />
+
+<img width="1251" height="656" alt="image" src="https://github.com/user-attachments/assets/6d6bea7e-18df-4c65-aa67-d671a620c831" />
 
 
 **[English]**
