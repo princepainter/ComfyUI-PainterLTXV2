@@ -5,12 +5,39 @@
 ComfyUI custom nodes providing LTXV audio-video separation sampling and latent preparation capabilities for professional video generation workflows.
 
 ---
+<img width="2111" height="869" alt="image" src="https://github.com/user-attachments/assets/f04aed96-acd5-4645-b655-187cfc17cf87" />
+
+
+
+
+### PainterLTXVtoVideo This is an all-in-one ComfyUI node for text-to-video and image-to-video generation.
+
+
+<img width="1251" height="656" alt="image" src="https://github.com/user-attachments/assets/6d6bea7e-18df-4c65-aa67-d671a620c831" />
+
+
+**[English]**
+- If the initial frame image is connected, the system will execute image-to-video generation; if the initial frame image is disconnected, it will execute text-to-video generation. If the audio input is disconnected, a silent video will be generated.
+- Precise latent dimension calculation for LTXV models
+- Optional image input for first-frame conditioning
+- Audio VAE integration for complete audio-video pipeline
+- Automatic noise mask generation for temporal control
+
+### PainterLTXVtoVideo 这是一个文生视频+图生视频一体式comfyui节点
+
+**[中文]**
+- 如果接入首帧图，则执行图生视频，如果断开连接首帧图，则执行文生视频，音频如果断开，则生成无声视频
+- 精确的 LTXV 模型潜空间维度计算
+- 可选图像输入用于首帧条件控制
+- Audio VAE 集成，支持完整音视频 pipeline
+- 自动生成噪声遮罩实现时序控制
+
 
 **ComfyUI 的 LTXV 高级采样与潜空间准备节点**
 
 为专业视频生成工作流提供 LTXV 音视频分离采样和潜空间准备功能的 ComfyUI 自定义节点。
 
-<img width="2111" height="869" alt="image" src="https://github.com/user-attachments/assets/f04aed96-acd5-4645-b655-187cfc17cf87" />
+
 
 
 ## Nodes | 节点功能
@@ -31,24 +58,6 @@ ComfyUI custom nodes providing LTXV audio-video separation sampling and latent p
 - 外部 sigmas 输入支持（连接时覆盖调度器）
 - 灵活的步骤控制，支持局部去噪工作流
 - 针对动态效果保留和色彩保真优化
-
-### PainterLTXVtoVideo
-
-
-<img width="1251" height="656" alt="image" src="https://github.com/user-attachments/assets/6d6bea7e-18df-4c65-aa67-d671a620c831" />
-
-
-**[English]**
-- Precise latent dimension calculation for LTXV models
-- Optional image input for first-frame conditioning
-- Audio VAE integration for complete audio-video pipeline
-- Automatic noise mask generation for temporal control
-
-**[中文]**
-- 精确的 LTXV 模型潜空间维度计算
-- 可选图像输入用于首帧条件控制
-- Audio VAE 集成，支持完整音视频 pipeline
-- 自动生成噪声遮罩实现时序控制
 
 
 ## Installation | 安装方法
