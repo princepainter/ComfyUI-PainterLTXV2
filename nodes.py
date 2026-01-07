@@ -32,7 +32,7 @@ class PainterSamplerLTXV(io.ComfyNode):
                 io.Latent.Input("latent_image"),
                 io.Int.Input("start_at_step", default=0, min=0, max=10000),
                 io.Int.Input("end_at_step", default=10000, min=0, max=10000),
-                io.Combo.Input("return_with_leftover_noise", options=["disable", "enable"]),
+                io.Combo.Input("return_noise", options=["disable", "enable"]),
                 io.Sigmas.Input("sigmas", optional=True, tooltip="Optional external sigmas input. When connected, scheduler parameter will be ignored"),
             ],
             outputs=[
