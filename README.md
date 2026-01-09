@@ -13,7 +13,6 @@ ComfyUI custom nodes providing LTXV audio-video separation sampling and latent p
 ---
 <img width="2111" height="869" alt="image" src="https://github.com/user-attachments/assets/f04aed96-acd5-4645-b655-187cfc17cf87" />
 
-<img width="1495" height="876" alt="image" src="https://github.com/user-attachments/assets/aeebca4f-8459-45c0-9621-d2e3c62691df" />
 
 
 
