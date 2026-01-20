@@ -1,4 +1,4 @@
-# ComfyUI-PainterLTXV2
+# ComfyUI-PainterLTX2V
 
 # 此节点由绘画小子制作
 
